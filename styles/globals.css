@@ -1,0 +1,66 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.div-table {
+  display: table;         
+  width: auto;         
+  /* background-color: #eee;          */
+  border: 1px solid;         
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+  margin: 20px  ;
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;         
+  width: 200px;         
+  /* background-color: #ccc;   */
+  /* border: 1px solid #666666; */
+  text-align: center;
+}
+.link{
+  color: blue;
+}
+.header{
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  margin: 20px
+}
+.inner-div{
+  padding: 10px;
+  margin: 10px;
+}
+.title{
+  padding: 10px;
+  margin: 10px;
+}
+.content{
+  padding: 10px;
+  margin: 10px;
+}
+.error{
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
